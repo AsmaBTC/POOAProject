@@ -1,4 +1,50 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 
+public class Principale {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 	 
+		 Scanner sc= new Scanner(System.in);
+ 		 
+		System.out.println("Entrez le Nombre d'argument que vous voulez");
+		int nbr=sc.nextInt();
+		
+		Menu menu= new Menu(nbr);
+		menu.premierMenu(); 
+		
+		sc.close();
+	  
+	  
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -32,6 +78,3 @@ public class Principale {
 		*/
 		
 		
-	}
-
-}
